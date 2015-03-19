@@ -1,6 +1,6 @@
 <?php
 
-namespace thread\app\widgets\Nav;
+namespace filamentv\widgets;
 
 use Yii;
 use yii\base\InvalidConfigException;

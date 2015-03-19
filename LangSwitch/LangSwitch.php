@@ -1,9 +1,9 @@
 <?php
 
-namespace thread\app\widgets\Nav;
+namespace filamentv\widgets;
 
-use thread\components\MultiLanguage;
-use thread\models\Lang;
+use filament\multilang\MultiLanguage;
+use filament\models\Lang;
 
 /**
  * @package thread\app\widgets\Nav
