@@ -7,7 +7,7 @@ use yii\base\InvalidConfigException;
 use yii\helpers\Html;
 
 /**
- * @package thread\app\widgets\Nav
+ * @package filamentv\widgets
  * @author FilamentV <vortex.filament@gmail.com>
  * @copyright (c) 2014, Thread
  * @version 19/03/2015

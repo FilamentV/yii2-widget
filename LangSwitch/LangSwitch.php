@@ -2,8 +2,8 @@
 
 namespace filamentv\widgets;
 
-use filament\multilang\MultiLanguage;
-use filament\models\Lang;
+use filamentv\multilang\MultiLanguage;
+use filamentv\app\models\Lang;
 
 /**
  * @package thread\app\widgets\Nav
