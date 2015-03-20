@@ -1,12 +1,12 @@
 <?php
 
-namespace filamentv\widgets;
+namespace filamentv\widgets\LangSwitch;
 
 use filamentv\multilang\MultiLanguage;
 use filamentv\app\models\Lang;
 
 /**
- * @package thread\app\widgets\Nav
+ * @package filamentv\widgets
  * @author FilamentV <vortex.filament@gmail.com>
  * @copyright (c) 2015, Thread
  * @version 19/03/2015
