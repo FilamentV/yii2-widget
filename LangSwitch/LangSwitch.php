@@ -6,6 +6,9 @@ use filamentv\multilang\MultiLanguage;
 use filamentv\app\models\Lang;
 
 /**
+ * Widget show switching languaages.
+ * Is based on @package filamentv/yii2-miltilang
+ * 
  * @package filamentv\widgets
  * @author FilamentV <vortex.filament@gmail.com>
  * @copyright (c) 2015, Thread

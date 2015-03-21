@@ -7,6 +7,9 @@ use yii\base\InvalidConfigException;
 use yii\helpers\Html;
 
 /**
+ * Widget implemented in structured data.
+ * Tested by https://developers.google.com/structured-data/testing-tool/
+ * 
  * @package filamentv\widgets
  * @author FilamentV <vortex.filament@gmail.com>
  * @copyright (c) 2014, Thread
