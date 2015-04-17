@@ -1,6 +1,6 @@
 <?php
 
-namespace filamentv\widgets;
+namespace filamentv\widgets\Breadcrumbs;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -10,7 +10,7 @@ use yii\helpers\Html;
  * Widget implemented in structured data.
  * Tested by https://developers.google.com/structured-data/testing-tool/
  * 
- * @package filamentv\widgets
+ * @package filamentv\widgets\Breadcrumbs
  * @author FilamentV <vortex.filament@gmail.com>
  * @copyright (c) 2014, Thread
  * @version 19/03/2015
