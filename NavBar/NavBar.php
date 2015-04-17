@@ -1,6 +1,6 @@
 <?php
 
-namespace filamentv\widgets\Nav;
+namespace filamentv\widgets\NavBar;
 
 /**
  * Class NavBar
