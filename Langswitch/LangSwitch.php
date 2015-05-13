@@ -1,6 +1,6 @@
 <?php
 
-namespace filamentv\widgets\LangSwitch;
+namespace filamentv\widgets\Langswitch;
 
 use filamentv\multilang\MultiLanguage;
 use filamentv\app\models\Lang;
@@ -8,14 +8,14 @@ use filamentv\app\models\Lang;
 /**
  * Widget show switching languaages.
  * Is based on @package filamentv/yii2-miltilang
- * 
+ *
  * @package filamentv\widgets
  * @author FilamentV <vortex.filament@gmail.com>
  * @copyright (c) 2015, Thread
  * @version 19/03/2015
- * 
+ *
  * <?= LangSwitch::widget();?>
- * 
+ *
  */
 class LangSwitch extends \yii\bootstrap\Widget {
 

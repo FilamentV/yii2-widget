@@ -1,10 +1,10 @@
 <?php
 
-namespace filamentv\widgets\NavBar;
+namespace filamentv\widgets\Navbar;
 
 /**
  * Class NavBar
- * 
+ *
  * @package filamentv\widgets\Nav
  * @author FilamentV <vortex.filament@gmail.com>
  * @copyright (c) 2015, Thread
