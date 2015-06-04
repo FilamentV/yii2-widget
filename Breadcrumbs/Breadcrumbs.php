@@ -9,16 +9,16 @@ use yii\helpers\Html;
 /**
  * Widget implemented in structured data.
  * Tested by https://developers.google.com/structured-data/testing-tool/
- * 
+ *
  * @package filamentv\widgets\Breadcrumbs
  * @author FilamentV <vortex.filament@gmail.com>
  * @copyright (c) 2014, Thread
  * @version 19/03/2015
- * 
+ *
  * <?= Breadcrumbs::widget([ 'links' => $breadcrumbs ]); ?>
- * 
+ *
  */
-final class Breadcrumbs extends \yii\base\Widget {
+class Breadcrumbs extends \yii\base\Widget {
 
     public $homeLink;
     public $homeOpen = '{link}<span class="sep">›</span>';
