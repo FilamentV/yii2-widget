@@ -6,9 +6,9 @@ use filamentv\widgets\LangSwitch\LangSwitch;
 use filamentv\widgets\Search\Search;
 
 /**
+ * @package filamentv\widgets\Navbar
  * @author FilamentV <vortex.filament@gmail.com>
  * @copyright (c) 2015, Thread
- * @version 19/03/2015
  */
 NavBar::begin([
     'options' => [

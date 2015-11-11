@@ -5,10 +5,9 @@ namespace filamentv\widgets\Navbar;
 /**
  * Class NavBar
  *
- * @package filamentv\widgets\Nav
+ * @package filamentv\widgets\Navbar
  * @author FilamentV <vortex.filament@gmail.com>
  * @copyright (c) 2015, Thread
- * @version 18/03/2015
  *
  * <?= NavBar::widget(); ?>
  *

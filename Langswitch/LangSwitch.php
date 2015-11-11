@@ -6,13 +6,13 @@ use filamentv\multilang\MultiLanguage;
 use filamentv\app\models\Lang;
 
 /**
+ * Class LangSwitch
  * Widget show switching languaages.
  * Is based on @package filamentv/yii2-miltilang
  *
- * @package filamentv\widgets
+ * @package filamentv\widgets\Langswitch
  * @author FilamentV <vortex.filament@gmail.com>
  * @copyright (c) 2015, Thread
- * @version 19/03/2015
  *
  * <?= LangSwitch::widget();?>
  *
@@ -23,6 +23,9 @@ class LangSwitch extends \yii\bootstrap\Widget {
     protected $items = null;
     public $view = 'LangSwitch';
 
+    /**
+     * 
+     */
     public function init() {
         if (MultiLanguage::MULTI == MultiLanguage::KEY_ON) {
             $this->items = Lang::getList();
@@ -32,6 +35,10 @@ class LangSwitch extends \yii\bootstrap\Widget {
         }
     }
 
+    /**
+     * 
+     * @return type
+     */
     public function run() {
         if (MultiLanguage::MULTI == MultiLanguage::KEY_ON) {
 

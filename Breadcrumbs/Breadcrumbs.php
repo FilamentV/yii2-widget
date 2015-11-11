@@ -7,18 +7,18 @@ use yii\base\InvalidConfigException;
 use yii\helpers\Html;
 
 /**
+ * Class Breadcrumbs
  * Widget implemented in structured data.
  * Tested by https://developers.google.com/structured-data/testing-tool/
  * 
  * @package filamentv\widgets\Breadcrumbs
  * @author FilamentV <vortex.filament@gmail.com>
  * @copyright (c) 2014, Thread
- * @version 19/03/2015
  * 
  * <?= Breadcrumbs::widget([ 'links' => $breadcrumbs ]); ?>
  * 
  */
-final class Breadcrumbs extends \yii\base\Widget {
+class Breadcrumbs extends \yii\base\Widget {
 
     public $homeLink;
     public $homeOpen = '{link}<span class="sep">›</span>';
@@ -30,8 +30,9 @@ final class Breadcrumbs extends \yii\base\Widget {
     public $encodeLabels = true;
 
     public function run() {
-        if (empty($this->links))
+        if (empty($this->links)) {
             return;
+        }
 
         $lnkF = '';
 
@@ -43,16 +44,18 @@ final class Breadcrumbs extends \yii\base\Widget {
 
         $links = [];
         foreach ($this->links as $k => $link) {
-            if (!is_array($link))
+            if (!is_array($link)) {
                 $link = ['label' => $link];
+            }
 
             $links[$k] = $this->renderItem($link, ($k === 0) ? $this->itemOpenFirst : $this->itemOpen);
         }
 
         $links = array_reverse($links);
         $lnk = '';
-        foreach ($links as $l)
+        foreach ($links as $l) {
             $lnk = $l . $lnk . $this->itemClose;
+        }
 
         echo Html::tag('div', $lnkF . $lnk, ['class' => 'breadcrumbs']);
     }

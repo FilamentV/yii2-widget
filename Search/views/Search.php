@@ -3,9 +3,9 @@
 use yii\helpers\Html;
 
 /**
+ * @package filamentv\widgets\Search
  * @author FilamentV <vortex.filament@gmail.com>
  * @copyright (c) 2015, Thread
- * @version 19/03/2015
  */
 echo Html::beginTag('form', [
     'class' => 'navbar-form navbar-right',
