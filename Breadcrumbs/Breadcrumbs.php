@@ -10,13 +10,12 @@ use yii\helpers\Html;
  * Class Breadcrumbs
  * Widget implemented in structured data.
  * Tested by https://developers.google.com/structured-data/testing-tool/
- * 
+ *
  * @package filamentv\widgets\Breadcrumbs
  * @author FilamentV <vortex.filament@gmail.com>
  * @copyright (c) 2014, Thread
- * 
  * <?= Breadcrumbs::widget([ 'links' => $breadcrumbs ]); ?>
- * 
+ *
  */
 class Breadcrumbs extends \yii\base\Widget {
 
@@ -29,6 +28,10 @@ class Breadcrumbs extends \yii\base\Widget {
     public $itemClose = '</span>';
     public $encodeLabels = true;
 
+    /**
+     * 
+     * @return type
+     */
     public function run() {
         if (empty($this->links)) {
             return;
@@ -60,6 +63,13 @@ class Breadcrumbs extends \yii\base\Widget {
         echo Html::tag('div', $lnkF . $lnk, ['class' => 'breadcrumbs']);
     }
 
+    /**
+     * 
+     * @param type $link
+     * @param type $template
+     * @return type
+     * @throws InvalidConfigException
+     */
     protected function renderItem($link, $template) {
         if (isset($link['label'])) {
             $label = $this->encodeLabels ? Html::encode($link['label']) : $link['label'];
